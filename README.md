@@ -54,3 +54,38 @@
 
 ## 🔗 Discord
 [![Discord server](https://discordapp.com/api/guilds/1039243284863795312/embed.png?style=banner3)](https://discord.gg/gCkUyjKE6g)
+
+
+
+
+
+
+# بروزرسانی لیست پکیج‌ها
+sudo apt update
+
+# نصب Python 3.11
+sudo apt install python3.11
+
+# نصب pip برای Python 3.11
+sudo apt install python3.11-distutils
+curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3.11
+
+# بررسی نسخه پایتون و pip
+python3.11 --version
+pip3 --version
+
+
+
+# نصب کتابخانه‌های مورد نیاز
+pip install -r requirements.txt
+
+
+pip install --upgrade requests PyStyle
+
+
+
+# ایجاد محیط مجازی
+python3.11 -m venv venv
+
+# فعال کردن محیط مجازی
+source venv/bin/activate
